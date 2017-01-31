@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vika.eriana.tugaspertama.MainActivity"
+    android:background="@drawable/wew">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A22.2015.02467"
+        android:id="@+id/textView2"
+        android:textColor="#807497"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vika Eriana"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"
+        android:textColor="#807497" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/vika"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:cropToPadding="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="&quot;free your mind&quot;"
+        android:id="@+id/textView3"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#fee8d0"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#fbffe6"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="Gunakan ilmu IT dan Mendalami Dunia Seni" />
+
+</RelativeLayout>
